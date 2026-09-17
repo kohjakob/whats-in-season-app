@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+dist/
+*.log
+PLAN.md
+scripts/deploy.sh
+deploy/

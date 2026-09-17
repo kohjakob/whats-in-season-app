@@ -1,0 +1,936 @@
+{
+ "languages": [
+  "en",
+  "de",
+  "fr",
+  "it",
+  "es",
+  "ja",
+  "zh",
+  "ru"
+ ],
+ "ui": {
+  "peak": {
+   "en": "peak",
+   "de": "Hochsaison",
+   "fr": "pleine saison",
+   "it": "piena stagione",
+   "es": "plena temporada",
+   "ja": "最盛期",
+   "zh": "旺季",
+   "ru": "пик сезона"
+  },
+  "available": {
+   "en": "available",
+   "de": "verfügbar",
+   "fr": "disponible",
+   "it": "disponibile",
+   "es": "disponible",
+   "ja": "出回り",
+   "zh": "有售",
+   "ru": "в наличии"
+  },
+  "stored": {
+   "en": "from storage",
+   "de": "aus Lagerung",
+   "fr": "de conservation",
+   "it": "da conservazione",
+   "es": "de almacén",
+   "ja": "貯蔵品",
+   "zh": "储藏",
+   "ru": "из хранилища"
+  },
+  "vegetables": {
+   "en": "vegetables",
+   "de": "Gemüse",
+   "fr": "légumes",
+   "it": "verdure",
+   "es": "verduras",
+   "ja": "野菜",
+   "zh": "蔬菜",
+   "ru": "овощи"
+  },
+  "fruit": {
+   "en": "fruit",
+   "de": "Obst",
+   "fr": "fruits",
+   "it": "frutta",
+   "es": "fruta",
+   "ja": "果物",
+   "zh": "水果",
+   "ru": "фрукты"
+  },
+  "herbs": {
+   "en": "herbs",
+   "de": "Kräuter",
+   "fr": "herbes",
+   "it": "erbe",
+   "es": "hierbas",
+   "ja": "ハーブ",
+   "zh": "香草",
+   "ru": "травы"
+  },
+  "nuts": {
+   "en": "nuts",
+   "de": "Nüsse",
+   "fr": "noix",
+   "it": "frutta secca",
+   "es": "frutos secos",
+   "ja": "ナッツ",
+   "zh": "坚果",
+   "ru": "орехи"
+  }
+ },
+ "months": {
+  "en": [
+   "JAN",
+   "FEB",
+   "MAR",
+   "APR",
+   "MAY",
+   "JUN",
+   "JUL",
+   "AUG",
+   "SEP",
+   "OCT",
+   "NOV",
+   "DEC"
+  ],
+  "de": [
+   "JAN",
+   "FEB",
+   "MÄR",
+   "APR",
+   "MAI",
+   "JUN",
+   "JUL",
+   "AUG",
+   "SEP",
+   "OKT",
+   "NOV",
+   "DEZ"
+  ],
+  "fr": [
+   "JAN",
+   "FÉV",
+   "MAR",
+   "AVR",
+   "MAI",
+   "JUIN",
+   "JUIL",
+   "AOÛ",
+   "SEP",
+   "OCT",
+   "NOV",
+   "DÉC"
+  ],
+  "it": [
+   "GEN",
+   "FEB",
+   "MAR",
+   "APR",
+   "MAG",
+   "GIU",
+   "LUG",
+   "AGO",
+   "SET",
+   "OTT",
+   "NOV",
+   "DIC"
+  ],
+  "es": [
+   "ENE",
+   "FEB",
+   "MAR",
+   "ABR",
+   "MAY",
+   "JUN",
+   "JUL",
+   "AGO",
+   "SEP",
+   "OCT",
+   "NOV",
+   "DIC"
+  ],
+  "ja": [
+   "1月",
+   "2月",
+   "3月",
+   "4月",
+   "5月",
+   "6月",
+   "7月",
+   "8月",
+   "9月",
+   "10月",
+   "11月",
+   "12月"
+  ],
+  "zh": [
+   "1月",
+   "2月",
+   "3月",
+   "4月",
+   "5月",
+   "6月",
+   "7月",
+   "8月",
+   "9月",
+   "10月",
+   "11月",
+   "12月"
+  ],
+  "ru": [
+   "ЯНВ",
+   "ФЕВ",
+   "МАР",
+   "АПР",
+   "МАЙ",
+   "ИЮН",
+   "ИЮЛ",
+   "АВГ",
+   "СЕН",
+   "ОКТ",
+   "НОЯ",
+   "ДЕК"
+  ]
+ },
+ "produce": {
+  "almond": {
+   "fr": "Amandes",
+   "it": "Mandorle",
+   "es": "Almendras",
+   "ja": "アーモンド",
+   "zh": "杏仁",
+   "ru": "Миндаль"
+  },
+  "apple": {
+   "fr": "Pommes",
+   "it": "Mele",
+   "es": "Manzanas",
+   "ja": "りんご",
+   "zh": "苹果",
+   "ru": "Яблоки"
+  },
+  "apricot": {
+   "fr": "Abricots",
+   "it": "Albicocche",
+   "es": "Albaricoques",
+   "ja": "あんず",
+   "zh": "杏",
+   "ru": "Абрикосы"
+  },
+  "artichoke": {
+   "fr": "Artichauts",
+   "it": "Carciofi",
+   "es": "Alcachofas",
+   "ja": "アーティチョーク",
+   "zh": "洋蓟",
+   "ru": "Артишоки"
+  },
+  "asparagus": {
+   "fr": "Asperges",
+   "it": "Asparagi",
+   "es": "Espárragos",
+   "ja": "アスパラガス",
+   "zh": "芦笋",
+   "ru": "Спаржа"
+  },
+  "aubergine": {
+   "fr": "Aubergines",
+   "it": "Melanzane",
+   "es": "Berenjenas",
+   "ja": "なす",
+   "zh": "茄子",
+   "ru": "Баклажаны"
+  },
+  "avocado": {
+   "fr": "Avocats",
+   "it": "Avocado",
+   "es": "Aguacates",
+   "ja": "アボカド",
+   "zh": "牛油果",
+   "ru": "Авокадо"
+  },
+  "banana": {
+   "fr": "Bananes",
+   "it": "Banane",
+   "es": "Plátanos",
+   "ja": "バナナ",
+   "zh": "香蕉",
+   "ru": "Бананы"
+  },
+  "basil": {
+   "fr": "Basilic",
+   "it": "Basilico",
+   "es": "Albahaca",
+   "ja": "バジル",
+   "zh": "罗勒",
+   "ru": "Базилик"
+  },
+  "beetroot": {
+   "fr": "Betteraves",
+   "it": "Barbabietole",
+   "es": "Remolachas",
+   "ja": "ビーツ",
+   "zh": "甜菜根",
+   "ru": "Свёкла"
+  },
+  "black-currant": {
+   "fr": "Cassis",
+   "it": "Ribes nero",
+   "es": "Grosellas negras",
+   "ja": "クロスグリ",
+   "zh": "黑加仑",
+   "ru": "Чёрная смородина"
+  },
+  "blackberry": {
+   "fr": "Mûres",
+   "it": "More",
+   "es": "Moras",
+   "ja": "ブラックベリー",
+   "zh": "黑莓",
+   "ru": "Ежевика"
+  },
+  "blueberry": {
+   "fr": "Myrtilles",
+   "it": "Mirtilli",
+   "es": "Arándanos",
+   "ja": "ブルーベリー",
+   "zh": "蓝莓",
+   "ru": "Голубика"
+  },
+  "broad-bean": {
+   "fr": "Fèves",
+   "it": "Fave",
+   "es": "Habas",
+   "ja": "そら豆",
+   "zh": "蚕豆",
+   "ru": "Бобы"
+  },
+  "broccoli": {
+   "fr": "Brocolis",
+   "it": "Broccoli",
+   "es": "Brócoli",
+   "ja": "ブロッコリー",
+   "zh": "西兰花",
+   "ru": "Брокколи"
+  },
+  "brussels-sprouts": {
+   "fr": "Choux de Bruxelles",
+   "it": "Cavolini di Bruxelles",
+   "es": "Coles de Bruselas",
+   "ja": "芽キャベツ",
+   "zh": "抱子甘蓝",
+   "ru": "Брюссельская капуста"
+  },
+  "cabbage": {
+   "fr": "Chou blanc",
+   "it": "Cavolo cappuccio",
+   "es": "Repollo",
+   "ja": "キャベツ",
+   "zh": "卷心菜",
+   "ru": "Белокочанная капуста"
+  },
+  "carrot": {
+   "fr": "Carottes",
+   "it": "Carote",
+   "es": "Zanahorias",
+   "ja": "にんじん",
+   "zh": "胡萝卜",
+   "ru": "Морковь"
+  },
+  "cauliflower": {
+   "fr": "Chou-fleur",
+   "it": "Cavolfiore",
+   "es": "Coliflor",
+   "ja": "カリフラワー",
+   "zh": "花菜",
+   "ru": "Цветная капуста"
+  },
+  "celeriac": {
+   "fr": "Céleri-rave",
+   "it": "Sedano rapa",
+   "es": "Apio nabo",
+   "ja": "根セロリ",
+   "zh": "根芹菜",
+   "ru": "Корневой сельдерей"
+  },
+  "celery": {
+   "fr": "Céleri branche",
+   "it": "Sedano",
+   "es": "Apio",
+   "ja": "セロリ",
+   "zh": "芹菜",
+   "ru": "Сельдерей"
+  },
+  "chard": {
+   "fr": "Blettes",
+   "it": "Bietole",
+   "es": "Acelgas",
+   "ja": "スイスチャード",
+   "zh": "甜菜叶",
+   "ru": "Мангольд"
+  },
+  "chestnut": {
+   "fr": "Châtaignes",
+   "it": "Castagne",
+   "es": "Castañas",
+   "ja": "栗",
+   "zh": "栗子",
+   "ru": "Каштаны"
+  },
+  "chili": {
+   "fr": "Piments",
+   "it": "Peperoncini",
+   "es": "Chiles",
+   "ja": "唐辛子",
+   "zh": "辣椒",
+   "ru": "Перец чили"
+  },
+  "chives": {
+   "fr": "Ciboulette",
+   "it": "Erba cipollina",
+   "es": "Cebollino",
+   "ja": "チャイブ",
+   "zh": "细香葱",
+   "ru": "Шнитт-лук"
+  },
+  "coriander": {
+   "fr": "Coriandre",
+   "it": "Coriandolo",
+   "es": "Cilantro",
+   "ja": "パクチー",
+   "zh": "香菜",
+   "ru": "Кинза"
+  },
+  "cranberry": {
+   "fr": "Canneberges",
+   "it": "Mirtilli rossi",
+   "es": "Arándanos rojos",
+   "ja": "クランベリー",
+   "zh": "蔓越莓",
+   "ru": "Клюква"
+  },
+  "cucumber": {
+   "fr": "Concombres",
+   "it": "Cetrioli",
+   "es": "Pepinos",
+   "ja": "きゅうり",
+   "zh": "黄瓜",
+   "ru": "Огурцы"
+  },
+  "daikon": {
+   "fr": "Radis daikon",
+   "it": "Daikon",
+   "es": "Rábano daikon",
+   "ja": "大根",
+   "zh": "白萝卜",
+   "ru": "Дайкон"
+  },
+  "dill": {
+   "fr": "Aneth",
+   "it": "Aneto",
+   "es": "Eneldo",
+   "ja": "ディル",
+   "zh": "莳萝",
+   "ru": "Укроп"
+  },
+  "endive": {
+   "fr": "Endives",
+   "it": "Indivia",
+   "es": "Escarola",
+   "ja": "エンダイブ",
+   "zh": "苦苣",
+   "ru": "Эндивий"
+  },
+  "fennel": {
+   "fr": "Fenouil",
+   "it": "Finocchi",
+   "es": "Hinojo",
+   "ja": "フェンネル",
+   "zh": "茴香",
+   "ru": "Фенхель"
+  },
+  "fig": {
+   "fr": "Figues",
+   "it": "Fichi",
+   "es": "Higos",
+   "ja": "いちじく",
+   "zh": "无花果",
+   "ru": "Инжир"
+  },
+  "garlic": {
+   "fr": "Ail",
+   "it": "Aglio",
+   "es": "Ajo",
+   "ja": "にんにく",
+   "zh": "大蒜",
+   "ru": "Чеснок"
+  },
+  "gooseberry": {
+   "fr": "Groseilles à maquereau",
+   "it": "Uva spina",
+   "es": "Grosellas espinosas",
+   "ja": "グーズベリー",
+   "zh": "醋栗",
+   "ru": "Крыжовник"
+  },
+  "grape": {
+   "fr": "Raisins",
+   "it": "Uva",
+   "es": "Uvas",
+   "ja": "ぶどう",
+   "zh": "葡萄",
+   "ru": "Виноград"
+  },
+  "grapefruit": {
+   "fr": "Pamplemousses",
+   "it": "Pompelmi",
+   "es": "Pomelos",
+   "ja": "グレープフルーツ",
+   "zh": "西柚",
+   "ru": "Грейпфруты"
+  },
+  "green-bean": {
+   "fr": "Haricots verts",
+   "it": "Fagiolini",
+   "es": "Judías verdes",
+   "ja": "いんげん",
+   "zh": "四季豆",
+   "ru": "Стручковая фасоль"
+  },
+  "hazelnut": {
+   "fr": "Noisettes",
+   "it": "Nocciole",
+   "es": "Avellanas",
+   "ja": "ヘーゼルナッツ",
+   "zh": "榛子",
+   "ru": "Фундук"
+  },
+  "kale": {
+   "fr": "Chou frisé",
+   "it": "Cavolo riccio",
+   "es": "Col rizada",
+   "ja": "ケール",
+   "zh": "羽衣甘蓝",
+   "ru": "Кале"
+  },
+  "kiwi": {
+   "fr": "Kiwis",
+   "it": "Kiwi",
+   "es": "Kiwis",
+   "ja": "キウイ",
+   "zh": "猕猴桃",
+   "ru": "Киви"
+  },
+  "kohlrabi": {
+   "fr": "Choux-raves",
+   "it": "Cavolo rapa",
+   "es": "Colinabo",
+   "ja": "コールラビ",
+   "zh": "苤蓝",
+   "ru": "Кольраби"
+  },
+  "lambs-lettuce": {
+   "fr": "Mâche",
+   "it": "Valerianella",
+   "es": "Canónigos",
+   "ja": "マーシュ",
+   "zh": "野苣",
+   "ru": "Валерианелла"
+  },
+  "leek": {
+   "fr": "Poireaux",
+   "it": "Porri",
+   "es": "Puerros",
+   "ja": "リーキ",
+   "zh": "韭葱",
+   "ru": "Лук-порей"
+  },
+  "lemon": {
+   "fr": "Citrons",
+   "it": "Limoni",
+   "es": "Limones",
+   "ja": "レモン",
+   "zh": "柠檬",
+   "ru": "Лимоны"
+  },
+  "lettuce": {
+   "fr": "Laitue",
+   "it": "Lattuga",
+   "es": "Lechuga",
+   "ja": "レタス",
+   "zh": "生菜",
+   "ru": "Салат латук"
+  },
+  "lime": {
+   "fr": "Citrons verts",
+   "it": "Lime",
+   "es": "Limas",
+   "ja": "ライム",
+   "zh": "青柠",
+   "ru": "Лаймы"
+  },
+  "mandarin": {
+   "fr": "Mandarines",
+   "it": "Mandarini",
+   "es": "Mandarinas",
+   "ja": "みかん",
+   "zh": "橘子",
+   "ru": "Мандарины"
+  },
+  "mango": {
+   "fr": "Mangues",
+   "it": "Mango",
+   "es": "Mangos",
+   "ja": "マンゴー",
+   "zh": "芒果",
+   "ru": "Манго"
+  },
+  "melon": {
+   "fr": "Melons",
+   "it": "Meloni",
+   "es": "Melones",
+   "ja": "メロン",
+   "zh": "甜瓜",
+   "ru": "Дыни"
+  },
+  "mint": {
+   "fr": "Menthe",
+   "it": "Menta",
+   "es": "Menta",
+   "ja": "ミント",
+   "zh": "薄荷",
+   "ru": "Мята"
+  },
+  "napa-cabbage": {
+   "fr": "Chou chinois",
+   "it": "Cavolo cinese",
+   "es": "Col china",
+   "ja": "白菜",
+   "zh": "大白菜",
+   "ru": "Пекинская капуста"
+  },
+  "nectarine": {
+   "fr": "Nectarines",
+   "it": "Nettarine",
+   "es": "Nectarinas",
+   "ja": "ネクタリン",
+   "zh": "油桃",
+   "ru": "Нектарины"
+  },
+  "okra": {
+   "fr": "Gombos",
+   "it": "Okra",
+   "es": "Okra",
+   "ja": "オクラ",
+   "zh": "秋葵",
+   "ru": "Бамия"
+  },
+  "onion": {
+   "fr": "Oignons",
+   "it": "Cipolle",
+   "es": "Cebollas",
+   "ja": "たまねぎ",
+   "zh": "洋葱",
+   "ru": "Лук"
+  },
+  "orange": {
+   "fr": "Oranges",
+   "it": "Arance",
+   "es": "Naranjas",
+   "ja": "オレンジ",
+   "zh": "橙子",
+   "ru": "Апельсины"
+  },
+  "pak-choi": {
+   "fr": "Pak choï",
+   "it": "Pak choi",
+   "es": "Pak choi",
+   "ja": "チンゲン菜",
+   "zh": "青菜",
+   "ru": "Пак-чой"
+  },
+  "papaya": {
+   "fr": "Papayes",
+   "it": "Papaya",
+   "es": "Papayas",
+   "ja": "パパイヤ",
+   "zh": "木瓜",
+   "ru": "Папайя"
+  },
+  "parsley": {
+   "fr": "Persil",
+   "it": "Prezzemolo",
+   "es": "Perejil",
+   "ja": "パセリ",
+   "zh": "欧芹",
+   "ru": "Петрушка"
+  },
+  "parsnip": {
+   "fr": "Panais",
+   "it": "Pastinache",
+   "es": "Chirivías",
+   "ja": "パースニップ",
+   "zh": "欧防风",
+   "ru": "Пастернак"
+  },
+  "peach": {
+   "fr": "Pêches",
+   "it": "Pesche",
+   "es": "Melocotones",
+   "ja": "もも",
+   "zh": "桃子",
+   "ru": "Персики"
+  },
+  "pear": {
+   "fr": "Poires",
+   "it": "Pere",
+   "es": "Peras",
+   "ja": "洋なし",
+   "zh": "梨",
+   "ru": "Груши"
+  },
+  "peas": {
+   "fr": "Petits pois",
+   "it": "Piselli",
+   "es": "Guisantes",
+   "ja": "えんどう豆",
+   "zh": "豌豆",
+   "ru": "Горошек"
+  },
+  "persimmon": {
+   "fr": "Kakis",
+   "it": "Cachi",
+   "es": "Caquis",
+   "ja": "柿",
+   "zh": "柿子",
+   "ru": "Хурма"
+  },
+  "pineapple": {
+   "fr": "Ananas",
+   "it": "Ananas",
+   "es": "Piñas",
+   "ja": "パイナップル",
+   "zh": "菠萝",
+   "ru": "Ананасы"
+  },
+  "plum": {
+   "fr": "Prunes",
+   "it": "Prugne",
+   "es": "Ciruelas",
+   "ja": "プラム",
+   "zh": "李子",
+   "ru": "Сливы"
+  },
+  "pomegranate": {
+   "fr": "Grenades",
+   "it": "Melagrane",
+   "es": "Granadas",
+   "ja": "ざくろ",
+   "zh": "石榴",
+   "ru": "Гранаты"
+  },
+  "potato": {
+   "fr": "Pommes de terre",
+   "it": "Patate",
+   "es": "Patatas",
+   "ja": "じゃがいも",
+   "zh": "土豆",
+   "ru": "Картофель"
+  },
+  "pumpkin": {
+   "fr": "Citrouilles",
+   "it": "Zucche",
+   "es": "Calabazas",
+   "ja": "かぼちゃ",
+   "zh": "南瓜",
+   "ru": "Тыквы"
+  },
+  "quince": {
+   "fr": "Coings",
+   "it": "Mele cotogne",
+   "es": "Membrillos",
+   "ja": "かりん",
+   "zh": "榅桲",
+   "ru": "Айва"
+  },
+  "radish": {
+   "fr": "Radis",
+   "it": "Ravanelli",
+   "es": "Rábanos",
+   "ja": "ラディッシュ",
+   "zh": "樱桃萝卜",
+   "ru": "Редис"
+  },
+  "raspberry": {
+   "fr": "Framboises",
+   "it": "Lamponi",
+   "es": "Frambuesas",
+   "ja": "ラズベリー",
+   "zh": "树莓",
+   "ru": "Малина"
+  },
+  "red-cabbage": {
+   "fr": "Chou rouge",
+   "it": "Cavolo rosso",
+   "es": "Lombarda",
+   "ja": "紫キャベツ",
+   "zh": "紫甘蓝",
+   "ru": "Краснокочанная капуста"
+  },
+  "red-currant": {
+   "fr": "Groseilles",
+   "it": "Ribes rosso",
+   "es": "Grosellas rojas",
+   "ja": "赤スグリ",
+   "zh": "红加仑",
+   "ru": "Красная смородина"
+  },
+  "rhubarb": {
+   "fr": "Rhubarbe",
+   "it": "Rabarbaro",
+   "es": "Ruibarbo",
+   "ja": "ルバーブ",
+   "zh": "大黄",
+   "ru": "Ревень"
+  },
+  "rocket": {
+   "fr": "Roquette",
+   "it": "Rucola",
+   "es": "Rúcula",
+   "ja": "ルッコラ",
+   "zh": "芝麻菜",
+   "ru": "Руккола"
+  },
+  "savoy-cabbage": {
+   "fr": "Chou de Milan",
+   "it": "Cavolo verza",
+   "es": "Col de Milán",
+   "ja": "サボイキャベツ",
+   "zh": "皱叶甘蓝",
+   "ru": "Савойская капуста"
+  },
+  "sour-cherry": {
+   "fr": "Griottes",
+   "it": "Amarene",
+   "es": "Guindas",
+   "ja": "サワーチェリー",
+   "zh": "酸樱桃",
+   "ru": "Вишня"
+  },
+  "spinach": {
+   "fr": "Épinards",
+   "it": "Spinaci",
+   "es": "Espinacas",
+   "ja": "ほうれん草",
+   "zh": "菠菜",
+   "ru": "Шпинат"
+  },
+  "spring-onion": {
+   "fr": "Oignons nouveaux",
+   "it": "Cipollotti",
+   "es": "Cebolletas",
+   "ja": "万能ねぎ",
+   "zh": "小葱",
+   "ru": "Зелёный лук"
+  },
+  "strawberry": {
+   "fr": "Fraises",
+   "it": "Fragole",
+   "es": "Fresas",
+   "ja": "いちご",
+   "zh": "草莓",
+   "ru": "Клубника"
+  },
+  "swede": {
+   "fr": "Rutabagas",
+   "it": "Rape svedesi",
+   "es": "Nabo sueco",
+   "ja": "スウェーデンカブ",
+   "zh": "芜菁甘蓝",
+   "ru": "Брюква"
+  },
+  "sweet-cherry": {
+   "fr": "Cerises",
+   "it": "Ciliegie",
+   "es": "Cerezas",
+   "ja": "さくらんぼ",
+   "zh": "樱桃",
+   "ru": "Черешня"
+  },
+  "sweet-pepper": {
+   "fr": "Poivrons",
+   "it": "Peperoni",
+   "es": "Pimientos",
+   "ja": "パプリカ",
+   "zh": "甜椒",
+   "ru": "Болгарский перец"
+  },
+  "sweet-potato": {
+   "fr": "Patates douces",
+   "it": "Patate dolci",
+   "es": "Boniatos",
+   "ja": "さつまいも",
+   "zh": "红薯",
+   "ru": "Батат"
+  },
+  "sweetcorn": {
+   "fr": "Maïs doux",
+   "it": "Mais dolce",
+   "es": "Maíz dulce",
+   "ja": "とうもろこし",
+   "zh": "甜玉米",
+   "ru": "Сахарная кукуруза"
+  },
+  "tomato": {
+   "fr": "Tomates",
+   "it": "Pomodori",
+   "es": "Tomates",
+   "ja": "トマト",
+   "zh": "番茄",
+   "ru": "Томаты"
+  },
+  "turnip": {
+   "fr": "Navets",
+   "it": "Rape",
+   "es": "Nabos",
+   "ja": "かぶ",
+   "zh": "芜菁",
+   "ru": "Репа"
+  },
+  "walnut": {
+   "fr": "Noix",
+   "it": "Noci",
+   "es": "Nueces",
+   "ja": "くるみ",
+   "zh": "核桃",
+   "ru": "Грецкие орехи"
+  },
+  "watermelon": {
+   "fr": "Pastèques",
+   "it": "Angurie",
+   "es": "Sandías",
+   "ja": "すいか",
+   "zh": "西瓜",
+   "ru": "Арбузы"
+  },
+  "winter-squash": {
+   "fr": "Courges d'hiver",
+   "it": "Zucche invernali",
+   "es": "Calabazas de invierno",
+   "ja": "冬かぼちゃ",
+   "zh": "冬南瓜",
+   "ru": "Зимняя тыква"
+  },
+  "zucchini": {
+   "fr": "Courgettes",
+   "it": "Zucchine",
+   "es": "Calabacines",
+   "ja": "ズッキーニ",
+   "zh": "西葫芦",
+   "ru": "Цукини"
+  }
+ }
+}

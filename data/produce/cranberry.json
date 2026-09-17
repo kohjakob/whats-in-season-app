@@ -1,0 +1,42 @@
+{
+  "id": "cranberry",
+  "names": {
+    "en": "Cranberries",
+    "de": "Cranberries"
+  },
+  "species": "Vaccinium macrocarpon",
+  "ecocrop_code": 10711,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 5,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      15,
+      24
+    ],
+    "t_kill_c": -1
+  },
+  "model": {
+    "chill_hours_min": 1000,
+    "t_kill_dormant_c": -30,
+    "bloom_t_c": 15,
+    "bloom_to_harvest_days": [
+      80,
+      110
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 8,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=10711"
+    },
+    {
+      "field": "model",
+      "credit": "Chill requirement, winter survival limit, bloom threshold and bloom to harvest spread curated from pomology and horticulture references, see PLAN.md section 8a"
+    }
+  ]
+}

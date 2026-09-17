@@ -1,0 +1,36 @@
+{
+  "id": "endive",
+  "names": {
+    "en": "Endive",
+    "de": "Endivie"
+  },
+  "species": "Cichorium endivia",
+  "ecocrop_code": 693,
+  "category": "vegetable",
+  "kind": "cool_annual",
+  "thermal": {
+    "t_grow_min_c": 7,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      12,
+      22
+    ],
+    "t_kill_c": -3
+  },
+  "model": {
+    "cycle_days": 80,
+    "stand_days": 21
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=693"
+    },
+    {
+      "field": "model",
+      "credit": "Cycle and field standing time curated from extension guides, kill temperature from hardiness tables, see PLAN.md section 8a"
+    }
+  ]
+}

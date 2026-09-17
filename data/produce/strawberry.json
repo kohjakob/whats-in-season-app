@@ -1,0 +1,42 @@
+{
+  "id": "strawberry",
+  "names": {
+    "en": "Strawberries",
+    "de": "Erdbeeren"
+  },
+  "species": "Fragaria x ananassa",
+  "ecocrop_code": 1112,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 6,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      11,
+      24
+    ],
+    "t_kill_c": -5
+  },
+  "model": {
+    "chill_hours_min": 200,
+    "t_kill_dormant_c": -25,
+    "bloom_t_c": 11,
+    "bloom_to_harvest_days": [
+      30,
+      55
+    ],
+    "everbearing": true
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1112"
+    },
+    {
+      "field": "model",
+      "credit": "Everbearing: day-neutral cultivars dominate commercial production and produce until the weather turns; chill set for low-chill cultivars that supply subtropical markets; bloom threshold and bloom to harvest spread curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

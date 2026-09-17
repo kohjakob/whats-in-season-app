@@ -1,0 +1,1452 @@
+[
+ {
+  "name": "Apples",
+  "name_en": "apple",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Artichoke",
+  "name_en": "artichoke",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Asparagus",
+  "name_en": "asparagus",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Aubergine",
+  "name_en": "eggplant",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Beetroot",
+  "name_en": "beetroot",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Blackberries",
+  "name_en": "blackberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Blackcurrants",
+  "name_en": "blackcurrant",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Blueberries",
+  "name_en": "blueberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Broad Beans",
+  "name_en": "broad bean",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Broccoli",
+  "name_en": "broccoli",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Brussels Sprouts",
+  "name_en": "brussels sprout",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Butternut Squash",
+  "name_en": "butternut squash",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ]
+ },
+ {
+  "name": "Carrots",
+  "name_en": "carrot",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Cauliflower",
+  "name_en": "cauliflower",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ]
+ },
+ {
+  "name": "Celeriac",
+  "name_en": "celeriac",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Celery",
+  "name_en": "celery",
+  "months": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Cherries",
+  "name_en": "cherry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Chestnuts",
+  "name_en": "chestnut",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "Chicory",
+  "name_en": "chicory",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Chillies",
+  "name_en": "chili pepper",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Courgettes",
+  "name_en": "zucchini",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "source also spells it: Courgette"
+ },
+ {
+  "name": "Cranberries",
+  "name_en": "cranberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Cucumber",
+  "name_en": "cucumber",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Damsons",
+  "name_en": "damson",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Elderberries",
+  "name_en": "elderberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false
+  ]
+ },
+ {
+  "name": "Elderflowers",
+  "name_en": "elderflower",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "Fennel",
+  "name_en": "fennel",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "French Beans",
+  "name_en": "green bean",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Garlic",
+  "name_en": "garlic",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Gooseberries",
+  "name_en": "gooseberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Greengages",
+  "name_en": "greengage",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Jerusalem Artichokes",
+  "name_en": "jerusalem artichoke",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Kale",
+  "name_en": "kale",
+  "months": [
+   true,
+   true,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Kohlrabi",
+  "name_en": "kohlrabi",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Leeks",
+  "name_en": "leek",
+  "months": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Lettuce",
+  "name_en": "lettuce",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Loganberries",
+  "name_en": "loganberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Mangetout",
+  "name_en": "snow pea",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Marrow",
+  "name_en": "marrow",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Morel Mushrooms",
+  "name_en": "morel",
+  "months": [
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "Mushrooms",
+  "name_en": "mushroom",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   true
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "New Potatoes",
+  "name_en": "new potato",
+  "months": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Onions",
+  "name_en": "onion",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Parsnips",
+  "name_en": "parsnip",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "source also spells it: Parsnip"
+ },
+ {
+  "name": "Pears",
+  "name_en": "pear",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Peas",
+  "name_en": "pea",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Peppers",
+  "name_en": "sweet pepper",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Plums",
+  "name_en": "plum",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Potatoes",
+  "name_en": "potato",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Pumpkin",
+  "name_en": "pumpkin",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Purple Sprouting Broccoli",
+  "name_en": "purple sprouting broccoli",
+  "months": [
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Quince",
+  "name_en": "quince",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Radishes",
+  "name_en": "radish",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Raspberries",
+  "name_en": "raspberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Red Cabbage",
+  "name_en": "red cabbage",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Redcurrants",
+  "name_en": "redcurrant",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Rhubarb",
+  "name_en": "rhubarb",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Rocket",
+  "name_en": "rocket",
+  "months": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Runner Beans",
+  "name_en": "runner bean",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Salsify",
+  "name_en": "salsify",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Samphire",
+  "name_en": "samphire",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "Savoy Cabbage",
+  "name_en": "savoy cabbage",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Sorrel",
+  "name_en": "sorrel",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Spinach",
+  "name_en": "spinach",
+  "months": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Spring Greens",
+  "name_en": "spring greens",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Spring Onions",
+  "name_en": "spring onion",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Squash",
+  "name_en": "squash",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Strawberries",
+  "name_en": "strawberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Summer Squash",
+  "name_en": "summer squash",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Swedes",
+  "name_en": "swede",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ],
+  "notes": "source also spells it: Swede"
+ },
+ {
+  "name": "Sweetcorn",
+  "name_en": "sweetcorn",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Sweetheart Cabbage",
+  "name_en": "sweetheart cabbage",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Swiss Chard",
+  "name_en": "swiss chard",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "source also spells it: Swish Chard"
+ },
+ {
+  "name": "Tayberries",
+  "name_en": "tayberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Tomatoes",
+  "name_en": "tomato",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ]
+ },
+ {
+  "name": "Turnips",
+  "name_en": "turnip",
+  "months": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Watercress",
+  "name_en": "watercress",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "White Cabbage",
+  "name_en": "white cabbage",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ]
+ },
+ {
+  "name": "Wild Mushrooms",
+  "name_en": "wild mushroom",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "not a cultivated fruit/vegetable in the strict sense; kept as listed by source"
+ },
+ {
+  "name": "Winter Squash",
+  "name_en": "winter squash",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true
+  ]
+ }
+]

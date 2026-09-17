@@ -1,0 +1,36 @@
+{
+  "id": "celery",
+  "names": {
+    "en": "Celery",
+    "de": "Stangensellerie"
+  },
+  "species": "Apium graveolens var. dulce",
+  "ecocrop_code": 432,
+  "category": "vegetable",
+  "kind": "cool_annual",
+  "thermal": {
+    "t_grow_min_c": 8,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      15,
+      22
+    ],
+    "t_kill_c": -2
+  },
+  "model": {
+    "cycle_days": 90,
+    "stand_days": 21
+  },
+  "storage_weeks": 2,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=432"
+    },
+    {
+      "field": "model",
+      "credit": "Cycle and field standing time curated from extension guides, kill temperature from hardiness tables, see PLAN.md section 8a"
+    }
+  ]
+}

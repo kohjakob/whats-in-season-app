@@ -1,0 +1,15 @@
+{
+ "source": "The Vegetarian Society of the United Kingdom, \"Seasonal UK Grown Produce\" (blog page, published 1 January 2022)",
+ "url": "https://vegsoc.org/blog/seasonal-uk-grown-produce/",
+ "license": "facts transcribed, page is copyright of publisher (The Vegetarian Society of the United Kingdom Limited)",
+ "fetched": "2026-09-16",
+ "granularity": "month",
+ "semantics": "Page lists UK-grown produce \"in season\" per month as plain comma-separated text under one h2 heading per month. No distinction between freshly harvested and stored produce; winter listings of apples, pears, onions, potatoes, squash etc. implicitly include stored produce.",
+ "method": "Fetched the single HTML page with curl, stripped script/style, split on the twelve <h2> month headings, tag-stripped and split each month paragraph on commas. Built a 12-boolean vector per distinct name (true if listed under that month). Spelling variants merged into one item (Parsnip -> Parsnips, Swish Chard -> Swiss Chard, Courgette -> Courgettes, Swede -> Swedes) with the variant noted. name_en assigned by hand mapping using the shared cross-region convention.",
+ "name_en_convention": "US/international names for the joinable key: eggplant, zucchini, beetroot, sweetcorn, swede, rocket, spring onion, snow pea, sweet pepper, chili pepper.",
+ "caveats": [
+  "Single-source editorial list, not an official statistic.",
+  "Includes a few foraged/non-produce items (Elderflowers, Elderberries, Chestnuts, Samphire, Wild Mushrooms, Morel Mushrooms) flagged in notes.",
+  "Some month lists are visibly incomplete relative to others (e.g. Carrots absent in May/June, Onions absent Mar-Jun), so \"false\" means \"not listed\", not \"definitely unavailable\"."
+ ]
+}

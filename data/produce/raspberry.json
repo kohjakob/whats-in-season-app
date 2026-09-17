@@ -1,0 +1,42 @@
+{
+  "id": "raspberry",
+  "names": {
+    "en": "Raspberries",
+    "de": "Himbeeren"
+  },
+  "species": "Rubus idaeus ssp. idaeus",
+  "ecocrop_code": 1877,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 5,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      14,
+      24
+    ],
+    "t_kill_c": -1
+  },
+  "model": {
+    "chill_hours_min": 400,
+    "t_kill_dormant_c": -35,
+    "bloom_t_c": 12,
+    "bloom_to_harvest_days": [
+      35,
+      60
+    ],
+    "everbearing": true
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1877"
+    },
+    {
+      "field": "model",
+      "credit": "Everbearing: autumn-fruiting cultivars extend the market season after the summer flush; chill, bloom threshold and bloom to harvest spread curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

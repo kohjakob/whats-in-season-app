@@ -1,0 +1,36 @@
+{
+  "id": "rocket",
+  "names": {
+    "en": "Rocket",
+    "de": "Rucola"
+  },
+  "species": "Eruca sativa",
+  "ecocrop_code": 5794,
+  "category": "vegetable",
+  "kind": "cool_annual",
+  "thermal": {
+    "t_grow_min_c": 7,
+    "t_grow_max_c": 28,
+    "t_opt_c": [
+      10,
+      20
+    ],
+    "t_kill_c": -6
+  },
+  "model": {
+    "cycle_days": 35,
+    "stand_days": 10
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=5794"
+    },
+    {
+      "field": "model",
+      "credit": "Cycle and field standing time curated from extension guides, kill temperature from hardiness tables, see PLAN.md section 8a"
+    }
+  ]
+}

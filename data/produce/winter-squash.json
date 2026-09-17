@@ -1,0 +1,37 @@
+{
+  "id": "winter-squash",
+  "names": {
+    "en": "Winter squash",
+    "de": "Kürbis"
+  },
+  "species": "Cucurbita maxima",
+  "ecocrop_code": 819,
+  "category": "vegetable",
+  "kind": "warm_annual",
+  "thermal": {
+    "t_grow_min_c": 13,
+    "t_grow_max_c": 36,
+    "t_opt_c": [
+      18,
+      30
+    ],
+    "t_kill_c": 0
+  },
+  "model": {
+    "t_base_c": 10,
+    "gdd_to_first_harvest": 900,
+    "harvest_duration_days": 30
+  },
+  "storage_weeks": 16,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=819"
+    },
+    {
+      "field": "model",
+      "credit": "Growing degree day target and harvest duration curated from extension guides, see PLAN.md section 8a"
+    }
+  ]
+}

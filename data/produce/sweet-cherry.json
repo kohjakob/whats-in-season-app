@@ -1,0 +1,42 @@
+{
+  "id": "sweet-cherry",
+  "names": {
+    "en": "Cherries",
+    "de": "Kirschen"
+  },
+  "species": "Prunus avium",
+  "ecocrop_code": 8965,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 6,
+    "t_grow_max_c": 38,
+    "t_opt_c": [
+      18,
+      28
+    ],
+    "t_kill_c": 0
+  },
+  "model": {
+    "chill_hours_min": 600,
+    "t_kill_dormant_c": -30,
+    "bloom_t_c": 11,
+    "bloom_to_harvest_days": [
+      50,
+      85
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=8965"
+    },
+    {
+      "field": "model",
+      "credit": "Bloom to harvest spread covers early to late cultivars as shipped from a production district (USDA AMS volumes), chill at the low end of commercial cultivars, bloom threshold curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

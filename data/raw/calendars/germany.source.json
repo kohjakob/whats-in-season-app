@@ -1,0 +1,18 @@
+{
+ "source": "regional-saisonal.de, \"Saisonkalender für Gemüse\" and \"Saisonkalender für Obst\" (private German website with per-product month tables)",
+ "url": [
+  "https://www.regional-saisonal.de/saisonkalender-gemuese",
+  "https://www.regional-saisonal.de/saisonkalender-obst"
+ ],
+ "license": "facts transcribed, page is copyright of publisher (regional-saisonal.de); no open licence stated on the pages",
+ "fetched": "2026-09-16",
+ "granularity": "month",
+ "semantics": "Three-state cells per month, taken from the img title attribute: \"saisonal-regional frisch verfügbar\" (fresh from domestic/regional field cultivation) -> months=true; \"saisonal-regional als Lagerware verfügbar\" (from domestic storage) -> stored_months=true; \"nicht saisonal-regional verfügbar\" -> both false. months therefore means Freiland/fresh harvest only; stored_months captures Lagerware. Greenhouse produce is not represented (e.g. tomatoes only Jul-Oct).",
+ "method": "Fetched both pages with curl (plain HTML, one <table> each: 38 vegetable rows, 18 fruit rows, header + 12 month cells per row). Regex-split rows and cells, read the product name from the td.td_zutat cell (tag-stripped, HTML-unescaped) and decoded each month cell from the img title attribute. name_en assigned by hand mapping using the shared cross-region convention; compound source names such as \"Bohnen, grüne\" or \"Blaubeeren / Heidelbeeren\" mapped to a single English name.",
+ "name_en_convention": "US/international names for the joinable key: eggplant, zucchini, beetroot, sweetcorn, swede, rocket, spring onion, snow pea, sweet pepper, chili pepper.",
+ "caveats": [
+  "Editorial private source, not an official BLE/BZfE statistic; months reflect the site author's judgement of typical German regional availability.",
+  "Only 56 items; the vegetable table omits several common German produce (e.g. Feldsalat, Chinakohl, Knollensellerie, Rettich).",
+  "Stored months present for 13 items (root vegetables, cabbages, onions, potatoes, apples, pears, pumpkins)."
+ ]
+}

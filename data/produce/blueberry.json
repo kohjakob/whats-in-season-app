@@ -1,0 +1,42 @@
+{
+  "id": "blueberry",
+  "names": {
+    "en": "Blueberries",
+    "de": "Heidelbeeren"
+  },
+  "species": "Vaccinium corymbosum",
+  "ecocrop_code": 10704,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 5,
+    "t_grow_max_c": 32,
+    "t_opt_c": [
+      15,
+      24
+    ],
+    "t_kill_c": -1
+  },
+  "model": {
+    "chill_hours_min": 500,
+    "t_kill_dormant_c": -30,
+    "bloom_t_c": 12,
+    "bloom_to_harvest_days": [
+      60,
+      100
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=10704"
+    },
+    {
+      "field": "model",
+      "credit": "Bloom to harvest spread covers early to late cultivars as shipped from a production district (USDA AMS volumes), chill at the low end of commercial cultivars, bloom threshold curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

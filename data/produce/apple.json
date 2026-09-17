@@ -1,0 +1,42 @@
+{
+  "id": "apple",
+  "names": {
+    "en": "Apples",
+    "de": "Äpfel"
+  },
+  "species": "Malus domestica",
+  "ecocrop_code": 1407,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 8,
+    "t_grow_max_c": 35,
+    "t_opt_c": [
+      14,
+      27
+    ],
+    "t_kill_c": -2
+  },
+  "model": {
+    "chill_hours_min": 600,
+    "t_kill_dormant_c": -35,
+    "bloom_t_c": 10,
+    "bloom_to_harvest_days": [
+      120,
+      170
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 24,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1407"
+    },
+    {
+      "field": "model",
+      "credit": "Chill at the low end of mainstream commercial cultivars (Fuji, Gala class) so mild-winter apple districts qualify; bloom threshold and bloom to harvest spread curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

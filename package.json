@@ -1,0 +1,36 @@
+{
+  "name": "produce-season",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Location-specific seasonal produce charts computed from climate normals and per-item parameters",
+  "scripts": {
+    "build": "vite build",
+    "cli": "tsx src/cli.ts",
+    "dev": "vite",
+    "ecocrop": "tsx scripts/ecocrop.ts",
+    "fetch-fixture": "tsx scripts/fetch-fixture.ts",
+    "import-calendars": "tsx scripts/import-calendars.ts",
+    "preview": "vite preview",
+    "render-chart": "tsx scripts/render-chart.tsx",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx scripts/validate.ts"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^25.0.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.0"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "lettuce",
+  "names": {
+    "en": "Lettuce",
+    "de": "Salat"
+  },
+  "species": "Lactuca sativa var. capitata",
+  "ecocrop_code": 1313,
+  "category": "vegetable",
+  "kind": "cool_annual",
+  "thermal": {
+    "t_grow_min_c": 8,
+    "t_grow_max_c": 30,
+    "t_opt_c": [
+      12,
+      21
+    ],
+    "t_kill_c": -2
+  },
+  "model": {
+    "cycle_days": 55,
+    "stand_days": 14
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1313"
+    },
+    {
+      "field": "model",
+      "credit": "Cycle and field standing time curated from extension guides, kill temperature from hardiness tables, see PLAN.md section 8a"
+    }
+  ]
+}

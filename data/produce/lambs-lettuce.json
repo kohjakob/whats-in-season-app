@@ -1,0 +1,34 @@
+{
+  "id": "lambs-lettuce",
+  "names": {
+    "en": "Lamb's lettuce",
+    "de": "Feldsalat"
+  },
+  "species": "Valerianella locusta",
+  "category": "vegetable",
+  "kind": "cool_annual",
+  "thermal": {
+    "t_grow_min_c": 2,
+    "t_grow_max_c": 22,
+    "t_opt_c": [
+      5,
+      15
+    ],
+    "t_kill_c": -15
+  },
+  "model": {
+    "cycle_days": 60,
+    "stand_days": 60
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "Not in FAO EcoCrop. Winter salad grown from late summer sowings, hardy to about -15 C, bolts above roughly 20 C; from German and UK extension guides"
+    },
+    {
+      "field": "model",
+      "credit": "Cycle and field standing time curated from extension guides, kill temperature from hardiness tables, see PLAN.md section 8a"
+    }
+  ]
+}

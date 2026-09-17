@@ -1,0 +1,37 @@
+{
+  "id": "sweetcorn",
+  "names": {
+    "en": "Sweetcorn",
+    "de": "Zuckermais"
+  },
+  "species": "Zea mays ssp. saccharata",
+  "ecocrop_code": 10981,
+  "category": "vegetable",
+  "kind": "warm_annual",
+  "thermal": {
+    "t_grow_min_c": 13,
+    "t_grow_max_c": 36,
+    "t_opt_c": [
+      16,
+      26
+    ],
+    "t_kill_c": 0
+  },
+  "model": {
+    "t_base_c": 10,
+    "gdd_to_first_harvest": 750,
+    "harvest_duration_days": 60
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=10981"
+    },
+    {
+      "field": "model",
+      "credit": "Degree days to first harvest set for early cultivars that open the season; harvest duration covers staggered plantings, see PLAN.md section 8a"
+    }
+  ]
+}

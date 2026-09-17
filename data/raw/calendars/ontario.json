@@ -1,0 +1,1389 @@
+[
+ {
+  "name": "Apples",
+  "name_en": "apple",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Apricots",
+  "name_en": "apricot",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Blueberries",
+  "name_en": "blueberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Cherries",
+  "name_en": "cherry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Cranberries",
+  "name_en": "cranberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Currants",
+  "name_en": "currant",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Gooseberries",
+  "name_en": "gooseberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Grapes",
+  "name_en": "grape",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Haskap Berries",
+  "name_en": "haskap",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Muskmelon",
+  "name_en": "muskmelon",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Nectarines",
+  "name_en": "nectarine",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Peaches",
+  "name_en": "peach",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Pears",
+  "name_en": "pear",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Plums",
+  "name_en": "plum",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Raspberries",
+  "name_en": "raspberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Rhubarb",
+  "name_en": "rhubarb",
+  "months": [
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit; field"
+ },
+ {
+  "name": "Rhubarb (Forced)",
+  "name_en": "forced rhubarb",
+  "months": [
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit; forced (indoor)"
+ },
+ {
+  "name": "Strawberries (Field)",
+  "name_en": "strawberry",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "fruit; field"
+ },
+ {
+  "name": "Strawberries (Greenhouse)",
+  "name_en": "strawberry",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "fruit; greenhouse"
+ },
+ {
+  "name": "Watermelon",
+  "name_en": "watermelon",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "fruit"
+ },
+ {
+  "name": "Artichoke",
+  "name_en": "artichoke",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Asparagus",
+  "name_en": "asparagus",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Beans (Green/Yellow)",
+  "name_en": "green bean",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; green and yellow beans"
+ },
+ {
+  "name": "Beets",
+  "name_en": "beetroot",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Bitter Melon/Fuzzy Squash",
+  "name_en": "bitter melon",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; bitter melon and fuzzy squash listed together"
+ },
+ {
+  "name": "Bok Choy",
+  "name_en": "bok choy",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Broccoli",
+  "name_en": "broccoli",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Brussels Sprouts",
+  "name_en": "brussels sprout",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Cabbage",
+  "name_en": "cabbage",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Carrots",
+  "name_en": "carrot",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Cauliflower",
+  "name_en": "cauliflower",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Celery",
+  "name_en": "celery",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Chinese Broccoli (White Flower)",
+  "name_en": "gai lan",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Corn",
+  "name_en": "sweetcorn",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Cucumber (Field)",
+  "name_en": "cucumber",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; field"
+ },
+ {
+  "name": "Cucumber (Greenhouse)",
+  "name_en": "cucumber",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; greenhouse"
+ },
+ {
+  "name": "Daikon Radish",
+  "name_en": "daikon",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Edible Amaranth (Hinn Choy)",
+  "name_en": "amaranth greens",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Eggplant",
+  "name_en": "eggplant",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Garlic",
+  "name_en": "garlic",
+  "months": [
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Garlic Scapes",
+  "name_en": "garlic scape",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Kale",
+  "name_en": "kale",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Leeks",
+  "name_en": "leek",
+  "months": [
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Lettuce (Assorted)",
+  "name_en": "lettuce",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; field, assorted"
+ },
+ {
+  "name": "Lettuce (Greenhouse)",
+  "name_en": "lettuce",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; greenhouse"
+ },
+ {
+  "name": "Mushrooms",
+  "name_en": "mushroom",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Mustard Greens (Gai Choy)",
+  "name_en": "mustard greens",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Nappa Cabbage",
+  "name_en": "napa cabbage",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Onions (Cooking)",
+  "name_en": "onion",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; cooking onion"
+ },
+ {
+  "name": "Onions (Green)",
+  "name_en": "spring onion",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Onions (Red)",
+  "name_en": "red onion",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Parsnip",
+  "name_en": "parsnip",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Peas (Green)",
+  "name_en": "pea",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Peas (Snow)",
+  "name_en": "snow pea",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Peppers (Field)",
+  "name_en": "sweet pepper",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; field"
+ },
+ {
+  "name": "Peppers (Greenhouse)",
+  "name_en": "sweet pepper",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; greenhouse"
+ },
+ {
+  "name": "Potatoes",
+  "name_en": "potato",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Pumpkin",
+  "name_en": "pumpkin",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Radicchio",
+  "name_en": "radicchio",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   false,
+   false,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Radishes",
+  "name_en": "radish",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Rapini",
+  "name_en": "rapini",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Rutabaga",
+  "name_en": "swede",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Snow Pea Shoots (Dow Miu)",
+  "name_en": "pea shoots",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Spinach",
+  "name_en": "spinach",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Sprouts",
+  "name_en": "sprouts",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; bean/seed sprouts"
+ },
+ {
+  "name": "Winter Squash",
+  "name_en": "winter squash",
+  "months": [
+   true,
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Summer Squash",
+  "name_en": "summer squash",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Sweet Potatoes",
+  "name_en": "sweet potato",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Tomatoes (Field)",
+  "name_en": "tomato",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable; field"
+ },
+ {
+  "name": "Tomatoes (Greenhouse)",
+  "name_en": "tomato",
+  "months": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "notes": "vegetable; greenhouse"
+ },
+ {
+  "name": "Water Spinach (Tung Choy)",
+  "name_en": "water spinach",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Yow Choy (Yellow Flower)",
+  "name_en": "choy sum",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false
+  ],
+  "notes": "vegetable"
+ },
+ {
+  "name": "Zucchini",
+  "name_en": "zucchini",
+  "months": [
+   false,
+   false,
+   false,
+   false,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false
+  ],
+  "notes": "vegetable"
+ }
+]

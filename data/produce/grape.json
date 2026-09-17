@@ -1,0 +1,42 @@
+{
+  "id": "grape",
+  "names": {
+    "en": "Grapes",
+    "de": "Trauben"
+  },
+  "species": "Vitis vinifera",
+  "ecocrop_code": 2160,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 10,
+    "t_grow_max_c": 40,
+    "t_opt_c": [
+      18,
+      30
+    ],
+    "t_kill_c": -3
+  },
+  "model": {
+    "chill_hours_min": 200,
+    "t_kill_dormant_c": -20,
+    "bloom_t_c": 15,
+    "bloom_to_harvest_days": [
+      90,
+      150
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 6,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2160"
+    },
+    {
+      "field": "model",
+      "credit": "Chill requirement, bloom threshold and bloom to harvest spread curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

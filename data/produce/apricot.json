@@ -1,0 +1,42 @@
+{
+  "id": "apricot",
+  "names": {
+    "en": "Apricots",
+    "de": "Aprikosen"
+  },
+  "species": "Prunus armeniaca",
+  "ecocrop_code": 2398,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 7,
+    "t_grow_max_c": 38,
+    "t_opt_c": [
+      18,
+      30
+    ],
+    "t_kill_c": -1
+  },
+  "model": {
+    "chill_hours_min": 500,
+    "t_kill_dormant_c": -25,
+    "bloom_t_c": 11,
+    "bloom_to_harvest_days": [
+      80,
+      120
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=2398"
+    },
+    {
+      "field": "model",
+      "credit": "Bloom to harvest spread covers early to late cultivars as shipped from a production district (USDA AMS volumes), chill at the low end of commercial cultivars, bloom threshold curated from pomology references, see PLAN.md section 8a"
+    }
+  ]
+}

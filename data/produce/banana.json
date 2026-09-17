@@ -1,0 +1,42 @@
+{
+  "id": "banana",
+  "names": {
+    "en": "Bananas",
+    "de": "Bananen"
+  },
+  "species": "Musa acuminata",
+  "ecocrop_code": 7848,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 15,
+    "t_grow_max_c": 40,
+    "t_opt_c": [
+      22,
+      32
+    ],
+    "t_kill_c": 1
+  },
+  "model": {
+    "chill_hours_min": 0,
+    "t_kill_dormant_c": 0,
+    "bloom_t_c": 20,
+    "bloom_to_harvest_days": [
+      90,
+      120
+    ],
+    "everbearing": true
+  },
+  "storage_weeks": 0,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=7848"
+    },
+    {
+      "field": "model",
+      "credit": "Chill requirement, winter survival limit, bloom threshold and bloom to harvest spread curated from pomology and horticulture references, see PLAN.md section 8a"
+    }
+  ]
+}

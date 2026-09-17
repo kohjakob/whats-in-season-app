@@ -1,0 +1,37 @@
+{
+  "id": "aubergine",
+  "names": {
+    "en": "Aubergines",
+    "de": "Auberginen"
+  },
+  "species": "Solanum melongena",
+  "ecocrop_code": 1965,
+  "category": "vegetable",
+  "kind": "warm_annual",
+  "thermal": {
+    "t_grow_min_c": 15,
+    "t_grow_max_c": 38,
+    "t_opt_c": [
+      20,
+      32
+    ],
+    "t_kill_c": 0
+  },
+  "model": {
+    "t_base_c": 10,
+    "gdd_to_first_harvest": 800,
+    "harvest_duration_days": 75
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1965"
+    },
+    {
+      "field": "model",
+      "credit": "Degree days counted from transplanting where market growers transplant, otherwise from sowing; harvest duration covers staggered plantings; curated from extension guides, see PLAN.md section 8a"
+    }
+  ]
+}

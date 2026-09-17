@@ -1,0 +1,37 @@
+{
+  "id": "tomato",
+  "names": {
+    "en": "Tomatoes",
+    "de": "Tomaten"
+  },
+  "species": "Lycopersicon esculentum",
+  "ecocrop_code": 1379,
+  "category": "vegetable",
+  "kind": "warm_annual",
+  "thermal": {
+    "t_grow_min_c": 12,
+    "t_grow_max_c": 35,
+    "t_opt_c": [
+      18,
+      27
+    ],
+    "t_kill_c": 0
+  },
+  "model": {
+    "t_base_c": 10,
+    "gdd_to_first_harvest": 650,
+    "harvest_duration_days": 90
+  },
+  "storage_weeks": 1,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=1379"
+    },
+    {
+      "field": "model",
+      "credit": "Degree days counted from transplanting of six week old seedlings, as market growers do, not from seed; harvest duration curated from extension guides, see PLAN.md section 8a"
+    }
+  ]
+}

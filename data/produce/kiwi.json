@@ -1,0 +1,42 @@
+{
+  "id": "kiwi",
+  "names": {
+    "en": "Kiwis",
+    "de": "Kiwis"
+  },
+  "species": "Actinidia chinensis",
+  "ecocrop_code": 889,
+  "category": "fruit",
+  "kind": "perennial",
+  "thermal": {
+    "t_grow_min_c": 8,
+    "t_grow_max_c": 36,
+    "t_opt_c": [
+      16,
+      26
+    ],
+    "t_kill_c": -2
+  },
+  "model": {
+    "chill_hours_min": 600,
+    "t_kill_dormant_c": -12,
+    "bloom_t_c": 15,
+    "bloom_to_harvest_days": [
+      150,
+      180
+    ],
+    "everbearing": false
+  },
+  "storage_weeks": 12,
+  "sources": [
+    {
+      "field": "thermal",
+      "credit": "FAO EcoCrop (TOPMN, TOPMX, TMIN, TMAX, KTMP, GMIN, GMAX), adjusted to smoothed daily normals with the heat limit on the daily-maximum scale",
+      "url": "https://ecocrop.apps.fao.org/ecocrop/srv/en/dataSheet?id=889"
+    },
+    {
+      "field": "model",
+      "credit": "Chill requirement, winter survival limit, bloom threshold and bloom to harvest spread curated from pomology and horticulture references, see PLAN.md section 8a"
+    }
+  ]
+}

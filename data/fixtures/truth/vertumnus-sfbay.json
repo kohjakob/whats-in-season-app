@@ -1,0 +1,558 @@
+{
+  "id": "vertumnus-sfbay",
+  "region": "San Francisco Bay Area (vertumnus, from USDA AMS shipment volumes 2019 to 2024)",
+  "fixtures": [
+    "salinas",
+    "fresno"
+  ],
+  "source": {
+    "credit": "vertumnus.fyi SF Bay Area poster data, derived from USDA AMS Market News shipment volumes 2019 to 2024 for Salinas-Watsonville, San Joaquin Valley and Central District",
+    "url": "https://vertumnus.fyi/",
+    "license": "Facts about seasonality from public sources (USDA, NYS Dept of Agriculture and Markets); vertumnus derivation used for validation only, not redistributed in the product",
+    "granularity": "week",
+    "fetched": "2026-09-16"
+  },
+  "items": [
+    {
+      "name": "Cherries",
+      "produce": "sweet-cherry",
+      "fresh_weeks": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "peak_weeks": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "name": "Blueberries",
+      "produce": "blueberry",
+      "fresh_weeks": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "peak_weeks": [
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "name": "Apricots",
+      "produce": "apricot",
+      "fresh_weeks": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "peak_weeks": [
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "name": "Corn",
+      "produce": "sweetcorn",
+      "fresh_weeks": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "peak_weeks": [
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "name": "Strawberries",
+      "produce": "strawberry",
+      "fresh_weeks": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "peak_weeks": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "name": "Raspberries",
+      "produce": "raspberry",
+      "fresh_weeks": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "peak_weeks": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "name": "Nectarines",
+      "produce": "nectarine",
+      "fresh_weeks": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "peak_weeks": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "name": "Peaches",
+      "produce": "peach",
+      "fresh_weeks": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "peak_weeks": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ]
+    },
+    {
+      "name": "Plums",
+      "produce": "plum",
+      "fresh_weeks": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "peak_weeks": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "name": "Watermelons",
+      "produce": "watermelon",
+      "fresh_weeks": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "peak_weeks": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "name": "Peppers, Bell",
+      "produce": "sweet-pepper",
+      "fresh_weeks": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "peak_weeks": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "name": "Cantaloupes",
+      "produce": "melon",
+      "fresh_weeks": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "peak_weeks": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ]
+    },
+    {
+      "name": "Blackberries",
+      "produce": "blackberry",
+      "fresh_weeks": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ],
+      "peak_weeks": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "name": "Tomatoes",
+      "produce": "tomato",
+      "fresh_weeks": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "peak_weeks": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "name": "Grapes",
+      "produce": "grape",
+      "fresh_weeks": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "peak_weeks": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "name": "Pomegranates",
+      "produce": "pomegranate",
+      "fresh_weeks": [
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "peak_weeks": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "name": "Persimmons",
+      "produce": "persimmon",
+      "fresh_weeks": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "peak_weeks": [
+        44,
+        45,
+        46,
+        47,
+        48
+      ]
+    }
+  ]
+}
